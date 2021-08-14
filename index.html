@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Day of the week</title>
+</head>
+<body>
+  <div class="question" >
+    <h1 class="title">Date</h1>
+    <div class="date">
+      <input id="day" type="text" name="day" placeholder="20">
+      <span class="dots"> : </span>
+      <input id="month" type="text" name="month" placeholder="12">
+      <span class="dots"> : </span>
+      <input id="year" type="text" name="year" placeholder="1995">
+      <br/>
+      <span class="subText">Day</span><span class="subText">month</span><span class="subText">Year</span>
+    </div>
+
+    <br />
+    <button class="btn" onClick={submit()} type="button" name="button">Calculate weekday</button>
+  </div>
+  <div class="answer">
+    <p id="answer">
+      You give the date, I the weekday
+    </p>
+  </div>
+  <div class="footer">
+    ©Maarten De Baecke
+  </div>
+</body>
+</html>

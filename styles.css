@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+
+body{
+  text-align: center;
+  background-color: #261C2C;
+  color: white;
+  font-family: 'Baumans', cursive;
+}
+
+.date{
+  display: inline-block;
+  background-color: #3E2C41;
+  width: 540px;
+  height: 120px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+input{
+  font-size: 2.5rem;
+  width: 95px;
+  text-align: center;
+  padding: 10px;
+  background-color: #5C527F;
+  border-radius: 10px;
+  border-color: transparent;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  color: #cebcd1;
+}
+
+.dots{
+  font-size: 2.5rem;
+  width: 30px;
+  display: inline-block;
+}
+
+.question{
+  margin-top: 10vh;
+}
+
+.title{
+  display: block !important;
+  font-size: 4rem;
+}
+
+.subText{
+  margin: 54px;
+  font-size: 1.35rem;
+}
+
+.btn{
+  width: 270px;
+  padding: 12px 0;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #7a5780;
+  margin-top: 1rem;
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+.btn:hover{
+  background-color: #3E2C41;
+}
+
+.btn:active{
+  background-color: #2e2130;
+}
+
+
+.answer{
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.footer{
+  margin-top: 7rem;
+  color: #3E2C41;
+}
